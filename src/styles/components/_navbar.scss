@@ -1,0 +1,22 @@
+@use "sass:math";
+
+nav {
+  display: flex;
+  align-items: center;
+
+  a {
+    margin-left: math.div($base-margin, 2);
+  }
+
+  button {
+    background: $white;
+    color: $primary;
+    border: 2px solid $primary;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-family: "Poppins";
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: math.div($base-margin, 2);
+  }
+}

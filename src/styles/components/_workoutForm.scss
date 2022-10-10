@@ -1,0 +1,37 @@
+@use "sass:math";
+form {
+  label,
+  input {
+    display: block;
+  }
+  input {
+    padding: math.div($base-padding, 2);
+    margin-top: math.div($base-margin, 2);
+    margin-bottom: $base-margin;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background: $primary;
+    border: 0;
+    color: $white;
+    padding: math.div($base-padding, 2);
+    font-family: "Poppins";
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
+
+div {
+  .error {
+    padding: math.div($base-padding, 2);
+    background: $white;
+    border: 1px solid $error;
+    color: $error;
+    border-radius: 4px;
+    margin: $base-margin 0;
+  }
+}

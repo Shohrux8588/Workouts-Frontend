@@ -1,0 +1,31 @@
+.workout-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: $base-margin auto;
+  padding: $base-padding;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+
+  h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+    color: $primary;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+
+  span {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: $secondary;
+    padding: 6px;
+    border-radius: 1rem;
+    color: $error;
+  }
+}

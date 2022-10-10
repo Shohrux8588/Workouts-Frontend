@@ -1,0 +1,18 @@
+@use "sass:math";
+header {
+  background: $white;
+
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: math.div($base-padding, 2) $base-padding;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  a {
+    color: $black;
+    text-decoration: none;
+  }
+}

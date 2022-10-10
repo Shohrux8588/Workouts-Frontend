@@ -1,0 +1,22 @@
+@import "variables";
+
+// components
+@import "./components/header";
+@import "./components/workoutDetails";
+@import "./components/workoutForm";
+@import "./components/navbar";
+
+// pages
+@import "./pages/home";
+@import "./pages/signupLogin";
+body {
+  background: $secondary;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.pages {
+  max-width: 1400px;
+  padding: $base-padding;
+  margin: 0 auto;
+}
